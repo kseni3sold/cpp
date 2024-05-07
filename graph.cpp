@@ -57,7 +57,6 @@ public:
             }
         }
 
-        // Удаление всех рёбер, связанных с удаленной вершиной
         for (int i = edges.size() - 1; i >= 0; --i) {
             if (edges[i]->startVertex->id == id || edges[i]->endVertex->id == id) {
                 delete edges[i];
