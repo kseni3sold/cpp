@@ -38,7 +38,6 @@ public:
     void delNode(Node *root);
     void addEdge(Node *node1, Node *node2);
     void delEdge(Node *node1, Node *node2);
-    // Node *depthSearch, widthSearch
 };
 
 Graph::Graph(Node *first)
